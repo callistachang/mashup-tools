@@ -6,12 +6,12 @@ authors = ["Callista Chang <changcallista@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "~3.8"
-numpy = "^1.21.0"
-scipy = "^1.7.0"
-librosa = "^0.8.1"
-jupyterlab = "^3.0.16"
+scipy = "^1.4.1"
+librosa = "^0.8.0"
+spleeter = "^2.2.2"
 
 [tool.poetry.dev-dependencies]
+jupyterlab = "^3.0.16"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
