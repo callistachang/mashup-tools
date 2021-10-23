@@ -67,7 +67,6 @@ class Song:
         """
         Uses the Krumhansl-Schmuckler key-finding algorithm to estimate a song's key, given a pitch class distribution.
         More info: http://rnhart.net/articles/key-finding/
-        what in the nani heck is gg on
         """
         # X is a chroma vector, a numpy ndarray of shape (12,)
         # That is normalized with ZScore
